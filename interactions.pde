@@ -1,14 +1,11 @@
 void keyPressed() {
 
-  if (keyCode == UP) uparrow = true;
-  if (keyCode == DOWN) downarrow = true;
-
+  
 }
 
 void keyReleased() {
 
-  if (keyCode == UP) uparrow = false;
-  if (keyCode == DOWN) downarrow = false;
+  
 
 } 
 
