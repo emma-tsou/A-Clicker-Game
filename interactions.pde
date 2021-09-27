@@ -1,25 +1,12 @@
-void keyPressed() {
-
-  
-}
-
-void keyReleased() {
-
-  
-
-} 
-
-
-void mousePressed() {
-
-  if (dist(x, y, mouseX, mouseY) < 100) {
-    s = s + 1;
-  }
-   if (mouseX < width/2) {
-     //guessed "match" 
-     if (w == c); } 
-
-}
 
 void mouseReleased() {
+if (mode == INTRO) {
+    introClicks(); 
+  } else if (mode == GAME) {
+    gameClicks();
+  } else if (mode == PAUSE) {
+    pauseClicks();
+  } else if (mode == GAMEOVER) {
+    gameoverClicks();
+  } 
 } 
